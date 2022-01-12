@@ -1,6 +1,6 @@
-import AccountScreen from "./app/screens/AccountScreen";
-import ListingsScreen from "./app/screens/ListingsScreen";
+import React, { useState } from "react";
+import LoginScreen from "./app/screens/LoginScreen";
 
 export default function App() {
-  return <ListingsScreen />;
+  return <LoginScreen />;
 }
